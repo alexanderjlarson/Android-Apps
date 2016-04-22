@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewTester</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint">This is a hint</string>
+    <string name="press">Press</string>
+    <string name="choice1">Choice One</string>
+    <string name="choice2">Choice Two</string>
+    <string name="choice3">Choice Three</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="ringerOn">Ringer On</string>
+    <string name="ringerOff">Ringer Off</string>
+
+</resources>

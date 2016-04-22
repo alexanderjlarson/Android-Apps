@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WritersBlock</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tips">Tips</string>
+    <string name="braindump">Braindump</string>
+    <string name="story_starter">Story Starter</string>
+    <string name="picture_story">Picture Story</string>
+    <string name="new_button">New</string>
+    <string name="forest_ride">Forest Ride</string>
+    <string name="get_away">1. Get away from your writting. Go play a game, read a book, etc.</string>
+	<string name="quotes">2. Read quotes from famous authors:</string>
+	<string name="research">3. Research what type of writers block you have and other ways to overcome it:</string>
+    <string name="learn">4. Learn something new, either juggling, painting, a language, etc. </string>
+    <string name="move">5. Go for a walk or do something physically challenging instead of mentally</string>
+    <string name="p_story">Begin writing short story here</string>
+    <string name="begin">Begin writing short story here</string>
+    <string name="adj">Shrill</string>
+    <string name="verby">Sliced</string>
+    <string name="time">Noon/Halloween</string>
+    <string name="sbj">Video Games</string>
+    <string name="subject">Subject</string>
+    <string name="time_date">Time/Date</string>
+    <string name="verbs">Verbs</string>
+    <string name="adjective">Adjective</string>
+    <string name="goals2">Goals</string>
+    <string name="dump">Dump everything in your brain here</string>
+    <string name="dreams">Dreams</string>
+    <string name="writing">Hate about writing?</string>
+    <string name="trash">trash</string>
+    <string name="link">Famous author qutoes site</string>
+    <string name="link2">Figuring out which writers block site</string>
+    <string name="empty_dump">Braindump list empty.</string>
+    <string name="new_dump">Enter New Braindump</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="menu_add">Add a new topic</string>
+    <string name="menu_delete">delete</string>
+    <string name="menu_email">Email</string>
+    
+    
+    
+</resources>

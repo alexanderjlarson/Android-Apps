@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_background2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tipHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/tips"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#99CC00" />
+
+    <TextView
+        android:id="@+id/tip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/get_away" />
+
+    <TextView
+        android:id="@+id/tip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/quotes" />
+
+    <Button
+        android:id="@+id/link1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:background="#F9F9F9"
+        android:onClick="openQuoteLink"
+        android:text="@string/link"
+        android:textColor="#99CC00" />
+
+    <TextView
+        android:id="@+id/tip3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/research" />
+
+    <Button
+        android:id="@+id/link2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:background="#F9F9F9"
+        android:onClick="openTypeLink"
+        android:text="@string/link2"
+        android:textColor="#99CC00" />
+
+    <TextView
+        android:id="@+id/tip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/learn" />
+
+    <TextView
+        android:id="@+id/tip5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/move" />
+
+</LinearLayout>

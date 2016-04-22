@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/activity_background2">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp" >
+
+        <Button
+            android:id="@+id/btnSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="#99CC00"
+            android:onClick="subjectClick"
+            android:text="@string/subject"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/viewSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="25dp"
+        android:background="#000000" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp" >
+
+        <Button
+            android:id="@+id/btnTimeDate"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="#99CC00"
+            android:onClick="timedateClick"
+            android:text="@string/time_date"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/viewTimeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </TableRow>
+    
+    <View
+        android:layout_height="1dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="25dp"
+        android:background="#000000" />
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <Button
+            android:id="@+id/btnVerb"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="#99CC00"
+            android:onClick="verbClick"
+            android:text="@string/verbs"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/viewVerb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </TableRow>
+    
+    <View
+        android:layout_height="1dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="25dp"
+        android:background="#000000" />
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <Button
+            android:id="@+id/btnAdjective"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#99CC00"
+            android:onClick="adjectiveClick"
+            android:text="@string/adjective"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/viewAdjective"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </TableRow>
+    
+    <View
+        android:layout_height="1dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginRight="25dp"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/txtStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/begin"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+</TableLayout>

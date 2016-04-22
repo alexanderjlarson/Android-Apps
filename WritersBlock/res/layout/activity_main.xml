@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background3"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/bdButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="70dp"
+        android:background="#99CC00"
+        android:onClick="braindumpOnClick"
+        android:text="@string/braindump"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/ssButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#99CC00"
+        android:onClick="storyStarterOnClick"
+        android:text="@string/story_starter"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/psButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:background="#99CC00"
+        android:onClick="pictureStoryOnClick"
+        android:text="@string/picture_story"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/tButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CC00"
+        android:onClick="tipsOnClick"
+        android:text="@string/tips"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
